@@ -1,0 +1,14 @@
+#include "main.h"
+
+/**
+ * _printf - This function  produces output according to a format.
+ * @c: single character.
+ * @s: string of character;
+ * @%: percent signe.
+ *
+ * Return: the number of characters printed excluded null bytes.
+ */
+
+int _printf(const char *format, ...);
+{
+int 
