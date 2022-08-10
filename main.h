@@ -1,6 +1,9 @@
+#ifndef _PRINTF_F_
+#define _PRINTF_H_
+
+
 #include <limits.h>
 #include <stdio.h>
-#include "main.h"
 #include <stdint.h>
 
 /**
@@ -120,3 +123,5 @@ int main(void)
 	printf("precision: [%012.4f, %.5f, %.1f]\n", 231.0, 4.0, 67.0);
     return (0);
 }
+
+#endif
